@@ -8,9 +8,9 @@
   二. 添加CDN加速域名配置选项
   三. 兼容新旧后台模板
 - 使用的技术栈：
-  1. PHP
-  2. 腾讯云COS SDK
-  3. ThinkPHP模板
+  一. PHP
+  二. 腾讯云COS SDK
+  三. ThinkPHP模板
 - 修改了哪些文件：
   一. 新增 application/common/extend/upload/Cos.php
   二. 新增 application/admin/view/extend/upload/cos.html
