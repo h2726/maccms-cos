@@ -18,4 +18,4 @@
   2. 新增 application/admin/view/extend/upload/cos.html
   3. 新增 application/admin/view_new/extend/upload/cos.html
   4. 下载腾讯云腾讯云SDK，解压后放入:extend/cos/目录
-  5. 腾讯云SDK下载地址：https://github.com/tencentyun/cos-php-sdk-v5/releases(对于PHP版本>= 5.6且<7.2.5，请下载cos-sdk-v5-6.tar.gz，以使用Guzzle6版本；对于PHP版本>=7.2.5的请下载cos-sdk-v5-7.tar.gz以使用Guzzle7版本)
+  5. 腾讯云SDK下载地址：https://github.com/tencentyun/cos-php-sdk-v5/releases
