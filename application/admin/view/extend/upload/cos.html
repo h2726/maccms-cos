@@ -1,0 +1,30 @@
+<div class="layui-form-item upload_mode mode_Cos" {if condition="$config['upload']['mode'] neq 'Cos'"}style="display:none;" {/if}>
+<label class="layui-form-label">腾讯云COS：</label>
+<div class="layui-input-block">
+    <a href="https://cloud.tencent.com/product/cos" target="_blank" class="layui-btn layui-btn-primary">点击申请 https://cloud.tencent.com/product/cos</a>
+</div>
+<div class="layui-form-mid layui-word-aux">使用前需要先安装腾讯云SDK <a href="https://github.com/tencentyun/cos-php-sdk-v5/releases" target="_blank"
+                                                            class="layui-btn layui-btn-primary">{:lang('down')}</a>请将下载的SDK解压后放入:extend/cos/目录</div>
+</div>
+<div class="layui-form-item upload_mode mode_Cos" {if condition="$config['upload']['mode'] neq 'Cos'"}style="display:none;" {/if}>
+<label class="layui-form-label">存储桶名称：</label>
+<div class="layui-input-inline w200">
+    <input type="text" name="upload[api][cos][bucket]" placeholder="COS-存储桶名称" value="{$config['upload']['api']['cos']['bucket']}" class="layui-input"  >
+</div>
+<label class="layui-form-label">所属地域：</label>
+<div class="layui-input-inline w200">
+    <input type="text" name="upload[api][cos][region]" placeholder="COS-所属地域" value="{$config['upload']['api']['cos']['region']}" class="layui-input"  >
+</div>
+<label class="layui-form-label">SecretId：</label>
+<div class="layui-input-inline w200">
+    <input type="text" name="upload[api][cos][secretid]" placeholder="COS-SecretId" value="{$config['upload']['api']['cos']['secretid']}" class="layui-input"  >
+</div>
+<label class="layui-form-label">SecretKey：</label>
+<div class="layui-input-inline w200">
+    <input type="text" name="upload[api][cos][secretkey]" placeholder="COS-SecretKey" value="{$config['upload']['api']['cos']['secretkey']}" class="layui-input"  >
+</div>
+<label class="layui-form-label">CDN加速域名：</label>
+<div class="layui-input-inline w200">
+    <input type="text" name="upload[api][cos][cdn]" placeholder="COS-CDN加速域名(选填)" value="{$config['upload']['api']['cos']['cdn']}" class="layui-input"  >
+</div>
+</div> 
